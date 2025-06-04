@@ -1,0 +1,12 @@
+{
+  "name": "toxotidae",
+  "version": "1.0.0",
+  "description": "Toxotidae who spits out a text message (TRB SMS Gateway). A Typescript API to send SMS based on the Teltonika TBR140.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
