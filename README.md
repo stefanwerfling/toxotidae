@@ -9,8 +9,17 @@ Toxotidae (archerfish) who spits out a text message (TRB SMS Gateway), a Typescr
 
 ## Device
 What you need is the TRB140 device. The device is integrated into the network with a SIM and a fixed IP.
-
+<table>
+<tr>
+<td>
 <img src="/doc/images/device.jpeg" width="300px" >
+</td>
+<td>
+<img src="/doc/images/interface.jpeg" width="300px" >
+</td>
+</tr>
+</table>
+
 
 ## Installation
 
