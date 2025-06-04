@@ -7,6 +7,10 @@
 Toxotidae (archerfish) who spits out a text message (TRB SMS Gateway), a Typescript API to send SMS based on the Teltonika TBR140.
 </p>
 
+## Device
+What you need is the TRB140 device. The device is integrated into the network with a SIM and a fixed IP.
+
+<img src="/doc/images/device.jpeg" width="300px" >
 
 ## Installation
 
