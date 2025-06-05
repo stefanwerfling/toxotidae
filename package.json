@@ -2,11 +2,44 @@
   "name": "toxotidae",
   "version": "1.0.0",
   "description": "Toxotidae who spits out a text message (TRB SMS Gateway). A Typescript API to send SMS based on the Teltonika TBR140.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "@stylistic/eslint-plugin-ts": "^3.0.0",
+    "@types/node": "^20.17.16",
+    "@typescript-eslint/eslint-plugin": "^8.21.0",
+    "@typescript-eslint/parser": "^8.21.0",
+    "dotenv": "^16.5.0",
+    "eslint": "^9.19.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "got": "^12.6.1",
+    "typescript": "^5.7.3"
   },
-  "keywords": [],
-  "author": "",
-  "license": "GPL-3.0-only"
+  "peerDependencies": {
+    "got": "^12.0.0"
+  },
+  "peerDependenciesMeta": {
+    "got": {
+      "optional": false
+    }
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "keywords": [
+    "sms gateway",
+    "TBR140"
+  ],
+  "author": "Stefan Werfling",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf dist",
+    "compile": "tsc --project tsconfig.json"
+  },
+  "type": "module",
+  "types": "dist/index.d.ts"
 }
