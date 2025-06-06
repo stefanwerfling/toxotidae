@@ -1,4 +1,5 @@
 ![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/stefanwerfling/toxotidae)
 [![Discord](https://img.shields.io/discord/1347133593578766369.svg?label=Discord&logo=discord&color=5865F2&logoColor=white)](https://discord.gg/52PQ2mbWQD)
 
 
@@ -6,7 +7,7 @@
 <p align="center">
 <img src="/doc/images/logo.jpeg" width="300px" style="border-radius: 15px;transition: transform .2s;object-fit: cover;">
 <br><br>
-Toxotidae (archerfish) who spits out a text message (TRB SMS Gateway), a Typescript API to send SMS based on the Teltonika TBR140.
+Toxotidae (archerfish who spits out a text message) is a TypeScript library that provides an API abstraction for sending SMS messages through the Teltonika TBR140 cellular gateway device. The library handles authentication, session management, and message transmission via HTTP API calls to the TBR140's web interface.
 </p>
 
 ## Device
